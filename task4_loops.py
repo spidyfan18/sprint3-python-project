@@ -59,7 +59,7 @@ print(f"total North america sales:{NA_sales}")
 print(f"total JP sales: {JP_sales}")
 if NA_sales > JP_sales:print("NA Higher")
 elif JP_sales > NA_sales:print("JP Higher")
-else: print("none")
+else: print("Equal Sales")
 
 nintendo_games = []
 for n_games in video_game_sales:
