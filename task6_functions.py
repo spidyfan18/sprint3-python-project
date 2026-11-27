@@ -56,5 +56,5 @@ print(len(sports_game))
 
 def get_summary(game):
     return f"{game[NAME]} ({game[YEAR]}) - {game[GENRE]} - ${game[GLOBAL_SALES]}M"
-for g_s in video_game_sales:
-    print(g_s)
+for game in video_game_sales:
+    print(get_summary(game))
